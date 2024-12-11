@@ -9,7 +9,6 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-//ToDo:
 @Repository
 public interface AttractionRepository extends JpaRepository<Attraction, Long> {
     Optional<Attraction> findByName(String name);
