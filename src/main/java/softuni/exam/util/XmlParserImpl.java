@@ -20,4 +20,3 @@ public class XmlParserImpl implements XmlParser {
 
         return unmarshal;
     }
-}
